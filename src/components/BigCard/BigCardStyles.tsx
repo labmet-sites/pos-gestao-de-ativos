@@ -5,6 +5,63 @@ export const BigCardStyles = styled.div`
   * {
     font-family: 'Montserrat', sans-serif;
   }
+
+  .left-card {
+    width: max-content;
+    height: max-content;
+    h2 {
+      font-size: 46px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    h3 {
+      font-size: 46px;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+
+    h4 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 100px;
+    }
+
+    .pos-title {
+      display: flex;
+      width: max-content;
+      color: #fff;
+      margin-bottom: 80px;
+      h5 {
+        font-size: 68px;
+        font-weight: 300;
+        margin-right: 30px;
+      }
+
+      h6 {
+        font-size: 75px;
+        font-weight: 900;
+        letter-spacing: 5px;
+      }
+    }
+
+    .more-button {
+      color: #09152f;
+      background-color: #f4f4f4;
+      border: none;
+      font-size: 20px;
+      font-weight: 900;
+      box-sizing: border-box;
+      padding: 20px 30px 20px 30px;
+      border-radius: 16px;
+    }
+  }
+
   width: 96%;
   height: max-content;
   background-color: antiquewhite;
@@ -13,7 +70,8 @@ export const BigCardStyles = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
-  padding: 14px;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url(${bgImage});
   background-repeat: no-repeat;

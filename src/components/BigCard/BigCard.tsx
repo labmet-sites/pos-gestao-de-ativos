@@ -3,7 +3,18 @@ import { BigCardStyles } from './BigCardStyles';
 export default function BigCard() {
   return (
     <BigCardStyles>
-      <div className="left-card">Jorge</div>
+      <div className="left-card">
+        <h2>{`Projeto de Pós-Graduação`}</h2>
+        <h3>{`LATO SENSU`}</h3>
+        <h4>{`Unidade Acadêmica de Engenharia Mecânica (CCT/UFCG)`}</h4>
+        <div className="pos-title">
+          <h5>{'Curso:'}</h5>
+          <h6>
+            {`Gestão de Ativos`} <br /> {`para o setor Elétrico`}
+          </h6>
+        </div>
+        <button className="more-button">{'Mais Informações'}</button>
+      </div>
       <div className="right-card">
         <h5 className="cart-title">Categoria:</h5>
         <h6 className="cart-response">Especialização Res 07/01 CNE/CES</h6>
