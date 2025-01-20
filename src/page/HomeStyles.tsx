@@ -227,6 +227,30 @@ export const HomeStyles = styled.section`
     letter-spacing: 1.2px;
     font-weight: 400;
     line-height: 40px;
+
+    @media (max-width: 1700px) {
+      font-size: 22px;
+      letter-spacing: 1px;
+      line-height: 32px;
+    }
+
+    @media (max-width: 1150px) {
+      font-size: 20px;
+      letter-spacing: 0.8px;
+      line-height: 32px;
+    }
+
+    @media (max-width: 800px) {
+      font-size: 18px;
+      letter-spacing: 0.6px;
+      line-height: 30px;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 14px;
+      letter-spacing: 0.4px;
+      line-height: 24px;
+    }
   }
 
   .professors {
@@ -250,6 +274,22 @@ export const HomeStyles = styled.section`
         font-size: 30px;
         font-weight: 400;
         transition: 300ms;
+
+        @media (max-width: 1700px) {
+          font-size: 22px;
+        }
+
+        @media (max-width: 1150px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 800px) {
+          font-size: 18px;
+        }
+
+        @media (max-width: 600px) {
+          font-size: 14px;
+        }
       }
 
       .lattes-link {
@@ -265,6 +305,13 @@ export const HomeStyles = styled.section`
           &:hover {
             cursor: pointer;
             scale: 1.3;
+          }
+        }
+
+        @media (max-width: 1100px) {
+          margin-left: 8px;
+          .lattes-img {
+            width: 22px;
           }
         }
       }
@@ -308,6 +355,89 @@ export const HomeStyles = styled.section`
       margin-bottom: 12px;
       margin-left: 60px;
     }
+
+    @media (max-width: 1700px) {
+      padding: 32px 46px 32px 46px;
+      border-radius: 52px;
+      margin-bottom: 34px;
+
+      .level-title {
+        font-size: 26px;
+        margin-bottom: 28px;
+      }
+
+      .discipline {
+        font-size: 26px;
+        margin-left: 50px;
+      }
+    }
+
+    @media (max-width: 1350px) {
+      border-radius: 44px;
+
+      .level-title {
+        font-size: 22px;
+        margin-bottom: 24px;
+      }
+
+      .discipline {
+        font-size: 21px;
+        margin-left: 40px;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      border-radius: 34px;
+
+      .level-title {
+        font-size: 18px;
+        margin-bottom: 18px;
+      }
+
+      .discipline {
+        font-size: 17px;
+        margin-left: 26px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      border-radius: 28px;
+      .level-title {
+        font-size: 16px;
+        margin-bottom: 14px;
+      }
+
+      .discipline {
+        font-size: 14px;
+        margin-left: 18px;
+      }
+    }
+
+    @media (max-width: 680px) {
+      border-radius: 20px;
+      padding: 24px 28px 24px 28px;
+
+      .level-title {
+        font-size: 14px;
+        margin-bottom: 12px;
+      }
+
+      .discipline {
+        font-size: 12px;
+        margin-left: 14px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      .level-title {
+        font-size: 13px;
+      }
+
+      .discipline {
+        font-size: 11px;
+        margin-left: 8px;
+      }
+    }
   }
 
   footer {
@@ -330,6 +460,49 @@ export const HomeStyles = styled.section`
       font-size: 30px;
       font-weight: 700;
       color: #444444;
+    }
+
+    @media (max-width: 1300px) {
+      height: 300px;
+      margin-top: 120px;
+      img {
+        width: 100px;
+      }
+
+      p {
+        font-size: 26px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      height: 200px;
+      margin-top: 90px;
+      img {
+        width: 70px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      height: 150px;
+      margin-top: 60px;
+      img {
+        width: 50px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      p {
+        font-size: 13px;
+      }
     }
   }
 `;
