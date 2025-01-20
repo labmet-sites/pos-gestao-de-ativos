@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import { HomeStyles } from './HomeStyles';
 import Title from '../components/Title/Title';
 import lattesLogo from '../assets/lattes-logo.svg';
+import ufcgLogo from '../assets/ufcg-logo.png';
 
 export default function Home() {
   return (
@@ -198,6 +199,10 @@ export default function Home() {
         <h2 className="discipline">{`3.1 Sistemas Inteligentes para Gestão de Ativos (60h)`}</h2>
         <h2 className="discipline">{`3.2 TCC (---)`}</h2>
       </div>
+      <footer>
+        <img src={ufcgLogo} />
+        <p>Universidade Federal de Campina grande</p>
+      </footer>
     </HomeStyles>
   );
 }

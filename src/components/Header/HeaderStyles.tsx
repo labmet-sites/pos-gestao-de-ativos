@@ -27,9 +27,18 @@ export const HeaderStyles = styled.header`
     font-weight: 400;
   }
 
-  .ufcg-logo {
+  .ufcg-link {
+    width: max-content;
+    height: 74%;
     position: absolute;
     left: 40px;
-    height: 74%;
+    .ufcg-logo {
+      height: 100%;
+      transition: 300ms;
+
+      &:hover {
+        scale: 1.04;
+      }
+    }
   }
 `;

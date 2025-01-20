@@ -6,7 +6,13 @@ export default function Header() {
     <HeaderStyles>
       <h1 className="ufcg-title">Universidade Federal de Campina Grande</h1>
       <h2 className="sub">Pró Reitoria de Pós-graduação e Pesquisa</h2>
-      <img src={ufcg} className="ufcg-logo" />
+      <a
+        className="ufcg-link"
+        href="https://portal.ufcg.edu.br/"
+        target="_blank"
+      >
+        <img src={ufcg} className="ufcg-logo" />
+      </a>
     </HeaderStyles>
   );
 }

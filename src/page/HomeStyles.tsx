@@ -164,4 +164,27 @@ export const HomeStyles = styled.section`
       margin-left: 60px;
     }
   }
+
+  footer {
+    width: 100%;
+    height: 350px;
+    background-color: #a2a2a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+
+    img {
+      width: 130px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      color: #444444;
+    }
+  }
 `;
