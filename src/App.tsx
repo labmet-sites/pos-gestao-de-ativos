@@ -1,11 +1,17 @@
 import styled from 'styled-components';
-import Header from './components/Header/Header';
 import GlobalStyle from './styles/GlobalStyle';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './page/Home';
 
 function App() {
   return (
     <Body>
       <GlobalStyle />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </Body>
   );
 }
