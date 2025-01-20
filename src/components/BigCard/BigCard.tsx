@@ -1,4 +1,5 @@
 import { BigCardStyles } from './BigCardStyles';
+import pdfGestao from '../../assets/PPC_GestaoDeAtivos_2024.pdf';
 
 export default function BigCard() {
   return (
@@ -13,7 +14,9 @@ export default function BigCard() {
             {`Gestão de Ativos`} <br /> {`para o setor Elétrico`}
           </h6>
         </div>
-        <button className="more-button">{'Mais Informações'}</button>
+        <a href={pdfGestao} target="_blank" className="more-button">
+          {'Mais Informações'}
+        </a>
       </div>
       <div className="right-card">
         <h5 className="cart-title">Categoria:</h5>

@@ -60,6 +60,7 @@ export const BigCardStyles = styled.div`
       padding: 20px 30px 20px 30px;
       border-radius: 16px;
       transition: 300ms;
+      text-decoration: none;
 
       &:hover {
         cursor: pointer;
