@@ -315,6 +315,10 @@ export const HomeStyles = styled.section`
           }
         }
       }
+
+      @media (max-width: 900px) {
+        margin-bottom: 14px;
+      }
     }
   }
 
