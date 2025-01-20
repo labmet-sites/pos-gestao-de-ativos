@@ -215,6 +215,7 @@ export const BigCardStyles = styled.div`
     width: 96%;
     margin-bottom: 400px;
     justify-content: center;
+    padding: 30px;
     .left-card {
       display: flex;
       flex-direction: column;
@@ -266,6 +267,7 @@ export const BigCardStyles = styled.div`
   }
 
   @media (max-width: 780px) {
+    width: 97%;
     .left-card {
       h2 {
         font-size: 30px;
@@ -300,11 +302,92 @@ export const BigCardStyles = styled.div`
     }
 
     .right-card {
+      width: 93%;
       .cart-title {
         font-size: 13px;
       }
       .cart-response {
         font-size: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 570px) {
+    .left-card {
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      h4 {
+        font-size: 12px;
+        margin-bottom: 30px;
+      }
+      .pos-title {
+        margin-bottom: 30px;
+
+        h6 {
+          font-size: 28px;
+        }
+      }
+
+      .more-button {
+        font-size: 11px;
+        border-radius: 8px;
+        width: 150px;
+        height: 34px;
+      }
+    }
+
+    .right-card {
+      width: 93%;
+      .cart-title {
+        font-size: 13px;
+      }
+      .cart-response {
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    padding: 16px;
+    .left-card {
+      width: 99%;
+      h2 {
+        font-size: 18px;
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+
+      h4 {
+        font-size: 10px;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .pos-title {
+        h6 {
+          font-size: 24px;
+        }
+      }
+
+      .more-button {
+        margin-bottom: 20px;
+      }
+    }
+
+    .right-card {
+      width: 90%;
+      .cart-title {
+        font-size: 11px;
+      }
+      .cart-response {
+        font-size: 10px;
       }
     }
   }
