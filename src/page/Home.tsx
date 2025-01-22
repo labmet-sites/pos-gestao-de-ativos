@@ -199,6 +199,23 @@ export default function Home() {
         <h2 className="discipline">{`3.1 Sistemas Inteligentes para Gestão de Ativos (60h)`}</h2>
         <h2 className="discipline">{`3.2 TCC (---)`}</h2>
       </div>
+      <Title text={`Investimento`} />
+      <ul className="professors">
+        <li className="professor-li">
+          <h1 className=" under-text professor-name ">{`18 parcelas de R$600,00 (Seiscentos Reais)`}</h1>
+        </li>
+      </ul>
+      <Title text={`Inscrição`} />
+      <ul className="professors">
+        <li className="professor-li">
+          <h1 className="under-text professor-name">{`17 de Janeiro a 14 de Fevereiro (finalizado assim que as 100 vagas forem completadas)`}</h1>
+        </li>
+      </ul>
+      <a
+        target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdTt1HTPc3K6Jzhk27oGsjm2ZtuZ0YBZ00Q_VGxzxri5jk8sQ/viewform?usp=sharing"
+        className="form-subscribe"
+      >{`Formulário de Inscrição`}</a>
       <footer>
         <img src={ufcgLogo} />
         <p>Universidade Federal de Campina grande</p>

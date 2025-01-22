@@ -509,4 +509,51 @@ export const HomeStyles = styled.section`
       }
     }
   }
+
+  .under-text {
+    text-align: center;
+  }
+
+  .form-subscribe {
+    margin-top: 40px;
+    width: 460px;
+    height: 76px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #09152f;
+    color: #f4f4f4;
+    transition: 300ms;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      scale: 1.06;
+    }
+
+    @media (max-width: 1700px) {
+      width: 400px;
+      height: 68px;
+      border-radius: 14px;
+      font-size: 26px;
+    }
+
+    @media (max-width: 900px) {
+      width: 350px;
+      height: 54px;
+      border-radius: 10px;
+      font-size: 21px;
+    }
+
+    @media (max-width: 400px) {
+      width: 300px;
+      height: 48px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+  }
 `;
