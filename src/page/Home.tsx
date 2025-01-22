@@ -197,7 +197,7 @@ export default function Home() {
       <div className="div-3 disciplines">
         <h1 className="level-title">{`3. Núcleo Prático`}</h1>
         <h2 className="discipline">{`3.1 Sistemas Inteligentes para Gestão de Ativos (60h)`}</h2>
-        <h2 className="discipline">{`3.2 TCC (---)`}</h2>
+        <h2 className="discipline">{`3.2 TCC`}</h2>
       </div>
       <Title text={`Investimento`} />
       <ul className="professors">

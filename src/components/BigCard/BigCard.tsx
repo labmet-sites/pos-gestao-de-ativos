@@ -1,5 +1,4 @@
 import { BigCardStyles } from './BigCardStyles';
-import pdfGestao from '../../assets/PPC_GestaoDeAtivos_2024.pdf';
 
 export default function BigCard() {
   return (
@@ -14,9 +13,9 @@ export default function BigCard() {
             {`Gestão de Ativos`} <br /> {`para o setor Elétrico`}
           </h6>
         </div>
-        <a href={pdfGestao} target="_blank" className="more-button">
+        {/* <a href={pdfGestao} target="_blank" className="more-button">
           {'Mais Informações'}
-        </a>
+        </a> */}
       </div>
       <div className="right-card">
         <h5 className="cart-title">Categoria:</h5>
@@ -28,7 +27,7 @@ export default function BigCard() {
         <h5 className="cart-title">Número de Vagas:</h5>
         <h6 className="cart-response">100 vagas</h6>
         <h5 className="cart-title">Perído de Realização:</h5>
-        <h6 className="cart-response">Junho/2024 até Junho/2025</h6>
+        <h6 className="cart-response">Março/2025 até Dezembro/2026</h6>
         <h5 className="cart-title">Público:</h5>
         <h6 className="cart-response">
           Serão admitidos alunos advindos dos cursos de graduação em qualquer
