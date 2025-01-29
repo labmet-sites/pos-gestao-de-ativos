@@ -60,17 +60,14 @@ export default function Home() {
         {`A formação de profissionais Especialistas em Gestão de Ativos do Setor Elétrico, 
         amplia a possibilidade de, diante de desafios em um mercado em constante evolução, 
         que exige muita eficiência em sua gestão e por tratar de um recurso importante para o 
-        desenvolvimento da economia do país, necessitam de profissionais dotados de competências 
-        profissionais para atuar de forma ética na sociedade. `}
+        desenvolvimento da economia do país, necessitam de profissionais especializados para 
+        atuar de forma ética na sociedade. `}
         <br />
-
         {`O projeto`} <strong>{`Sistema Inteligente de Gestão Ativos `}</strong>
-        {`(SIOGA) em realização para a`}  <strong>{`Furnas Centrais Elétricas `}</strong>
-        {`no âmbito dos projetos P&D ANEEL acrescentou a necessidade de formação de pessoas com 
-        conhecimentos em Gestão de Ativos com visão de Inteligência Artificial.`}
-
+        {`(SIOGA) em desenvolvimento pelo IATI (Instituto Avançado de Tecnologia e Inovação) para a `}  <strong>{`Eletrobras Furnas `}</strong>
+        {`no âmbito dos projetos P&D&I da ANEEL (Agência Nacional de Energia Elétrica) identificou a necessidade de formação de pessoas 
+        com conhecimentos em Gestão de Ativos com visão de Inteligência Artificial.`}
         <br />
-
         {`Para atender essas necessidades, a `} <strong>{`Unidade Acadêmica de Engenharia Mecânica `}</strong>
         {`(UAEM) da UFCG tem se esforçado para desenvolver ações que fomentem a formação de pessoas de acordo com as 
         demandas acima descritas, o que culminou na realização do Curso de Especialização em Gestão de Ativos para o Setor Elétrico.`}
