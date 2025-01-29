@@ -29,8 +29,8 @@ export default function BigCard() {
         <h5 className="cart-title">Perído de Realização:</h5>
         <h6 className="cart-response">Março/2025 até Dezembro/2026</h6>
         <h5 className="cart-title">Aulas:</h5>
-        <h6 className="cart-response">Sexta: 19h às 22h</h6>
-        <h6 className="cart-response">Sábado: 08h às 12h e 14h às 18h</h6>
+        <h6 className="cart-response">Sextas: 19h às 22h</h6>
+        <h6 className="cart-response">Sábados: 08h às 12h e 14h às 18h</h6>
         <h5 className="cart-title">Público:</h5>
         <h6 className="cart-response">
           Serão admitidos alunos advindos dos cursos de graduação em qualquer

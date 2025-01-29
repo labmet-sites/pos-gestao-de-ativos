@@ -50,7 +50,7 @@ export default function Home() {
             </h3>
             <h3 className="small-info-right">
               {`jader.morais@professor.ufcg.edu.br`}<br />
-              {`gestão de ativos@ufcg.edu.br`}
+              {`gestaodeativos@ufcg.edu.br`}
             </h3>
           </div>
         </div>
