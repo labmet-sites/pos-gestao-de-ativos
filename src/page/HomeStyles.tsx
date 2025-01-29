@@ -228,6 +228,10 @@ export const HomeStyles = styled.section`
     font-weight: 400;
     line-height: 40px;
 
+    strong{
+      font-weight: 700;
+    }
+
     @media (max-width: 1700px) {
       font-size: 22px;
       letter-spacing: 1px;

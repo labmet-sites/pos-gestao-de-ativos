@@ -105,11 +105,12 @@ export const BigCardStyles = styled.div`
       font-weight: 700;
       letter-spacing: 1px;
       margin-bottom: 8px;
+      margin-top: 20px;
     }
 
     .cart-response {
       font-size: 21px;
-      margin-bottom: 34px;
+      margin-bottom: 4px;
       line-height: 30px;
       text-align: justify;
       text-indent: 40px;
@@ -162,11 +163,12 @@ export const BigCardStyles = styled.div`
         font-size: 20px;
         letter-spacing: 1px;
         margin-bottom: 6px;
+        margin-top: 14px;
       }
 
       .cart-response {
         font-size: 18px;
-        margin-bottom: 26px;
+        margin-bottom: 4px;
         line-height: 26px;
         text-indent: 32px;
       }
@@ -201,11 +203,12 @@ export const BigCardStyles = styled.div`
         font-size: 16px;
         letter-spacing: 0.4px;
         margin-bottom: 4px;
+        margin-top: 14px;
       }
 
       .cart-response {
         font-size: 14px;
-        margin-bottom: 18px;
+        margin-bottom: 2px;
         line-height: 22px;
         text-indent: 22px;
       }
@@ -214,7 +217,7 @@ export const BigCardStyles = styled.div`
 
   @media (max-width: 1320px) {
     width: 96%;
-    margin-bottom: 400px;
+    margin-bottom: 450px;
     justify-content: center;
     padding: 30px;
     .left-card {
@@ -253,7 +256,7 @@ export const BigCardStyles = styled.div`
       position: absolute;
       background-color: #09152f;
       color: #f4f4f4;
-      top: 104%;
+      top: 103%;
       margin: 0px;
       left: 50%;
       transform: translateX(-50%);

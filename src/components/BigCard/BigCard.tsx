@@ -10,7 +10,7 @@ export default function BigCard() {
         <div className="pos-title">
           <h5>{'Curso:'}</h5>
           <h6>
-            {`Gestão de Ativos`} <br /> {`para o setor Elétrico`}
+            {`Gestão de Ativos`} <br /> {`para o Setor Elétrico`}
           </h6>
         </div>
         {/* <a href={pdfGestao} target="_blank" className="more-button">
@@ -19,7 +19,7 @@ export default function BigCard() {
       </div>
       <div className="right-card">
         <h5 className="cart-title">Categoria:</h5>
-        <h6 className="cart-response">Especialização Res 07/01 CNE/CES</h6>
+        <h6 className="cart-response">Especialização Resolução 07/01 CNE/CES</h6>
         <h5 className="cart-title">Modalidade:</h5>
         <h6 className="cart-response">EAD</h6>
         <h5 className="cart-title">Caga Horária:</h5>
@@ -28,6 +28,9 @@ export default function BigCard() {
         <h6 className="cart-response">100 vagas</h6>
         <h5 className="cart-title">Perído de Realização:</h5>
         <h6 className="cart-response">Março/2025 até Dezembro/2026</h6>
+        <h5 className="cart-title">Aulas:</h5>
+        <h6 className="cart-response">Sexta: 19h às 22h</h6>
+        <h6 className="cart-response">Sábado: 08h às 12h e 14h às 18h</h6>
         <h5 className="cart-title">Público:</h5>
         <h6 className="cart-response">
           Serão admitidos alunos advindos dos cursos de graduação em qualquer

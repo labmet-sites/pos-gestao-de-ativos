@@ -41,27 +41,39 @@ export default function Home() {
           </div>
           <div className="small-card-info">
             <h3 className="small-info-left">
-              Telefone: <strong>{`(83) 98874-4407`}</strong>
+              Telefone: <strong>{`(83) 98735-5103`}</strong>
             </h3>
           </div>
           <div className="small-card-info">
             <h3 className="small-info-left">
-              Email: <strong>{`jader.morais@professor.ufcg.edu.br`}</strong>
+              Emails:
+            </h3>
+            <h3 className="small-info-right">
+              {`jader.morais@professor.ufcg.edu.br`}<br />
+              {`gestão de ativos@ufcg.edu.br`}
             </h3>
           </div>
         </div>
       </div>
       <Title text={`Concepção do Curso`} />
       <div className="about-text">
-        {`A formação de profissionais Especialistas em 
-        Gestão de Ativos do Setor Elétrico, amplia a possibilidade de, 
-        diante de desafios em um mercado em constante evolução, que exige 
-        muita eficiência em sua gestão e por tratar de um recurso importante 
-        para o desenvolvimento da economia do país, necessitam de profissionais 
-        dotados de competências profissionais para atuar de forma ética na 
-        sociedade, assim a UAEM – UFCG tem se esforçado para desenvolver ações 
-        que fomentem a formação dos alunos de acordo com as demandas 
-        mercadológicas.`}
+        {`A formação de profissionais Especialistas em Gestão de Ativos do Setor Elétrico, 
+        amplia a possibilidade de, diante de desafios em um mercado em constante evolução, 
+        que exige muita eficiência em sua gestão e por tratar de um recurso importante para o 
+        desenvolvimento da economia do país, necessitam de profissionais dotados de competências 
+        profissionais para atuar de forma ética na sociedade. `}
+        <br />
+
+        {`O projeto`} <strong>{`Sistema Inteligente de Gestão Ativos `}</strong>
+        {`(SIOGA) em realização para a`}  <strong>{`Furnas Centrais Elétricas `}</strong>
+        {`no âmbito dos projetos P&D ANEEL acrescentou a necessidade de formação de pessoas com 
+        conhecimentos em Gestão de Ativos com visão de Inteligência Artificial.`}
+
+        <br />
+
+        {`Para atender essas necessidades, a `} <strong>{`Unidade Acadêmica de Engenharia Mecânica `}</strong>
+        {`(UAEM) da UFCG tem se esforçado para desenvolver ações que fomentem a formação de pessoas de acordo com as 
+        demandas acima descritas, o que culminou na realização do Curso de Especialização em Gestão de Ativos para o Setor Elétrico.`}
       </div>
       <Title text={`Professores`} />
       <ul className="professors">
@@ -146,9 +158,9 @@ export default function Home() {
           </a>
         </li>
         <li className="professor-li">
-          <h1 className="professor-name">{`Josenildo Brito de Oliveira`}</h1>
+          <h1 className="professor-name">{`Gabriel de Souza Pereira Gomes`}</h1>
           <a
-            href={`http://lattes.cnpq.br/4767705355607282`}
+            href={`http://lattes.cnpq.br/8939339011412533`}
             className="lattes-link"
             target="_blank"
           >
@@ -208,7 +220,7 @@ export default function Home() {
       <Title text={`Inscrição`} />
       <ul className="professors">
         <li className="professor-li">
-          <h1 className="under-text professor-name">{`17 de Janeiro a 14 de Fevereiro (finalizado assim que as 100 vagas forem completadas)`}</h1>
+          <h1 className="under-text professor-name">{`03 a 20 de Fevereiro`}</h1>
         </li>
       </ul>
       <a
