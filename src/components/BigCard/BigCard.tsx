@@ -10,7 +10,7 @@ export default function BigCard() {
         <div className="pos-title">
           <h5>{'Curso:'}</h5>
           <h6>
-            {`Gestão de Ativos`} <br /> {`para o Setor Elétrico`}
+            {`Gestão de Ativos`}
           </h6>
         </div>
         {/* <a href={pdfGestao} target="_blank" className="more-button">
