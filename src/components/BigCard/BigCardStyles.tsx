@@ -7,7 +7,7 @@ export const BigCardStyles = styled.div`
   }
 
   .left-card {
-    width: max-content;
+    width: 60%;
     height: max-content;
     h2 {
       font-size: 46px;
@@ -34,19 +34,22 @@ export const BigCardStyles = styled.div`
 
     .pos-title {
       display: flex;
-      width: max-content;
+      width: 100%;
+      flex-direction: column;
       color: #fff;
       margin-bottom: 80px;
       h5 {
         font-size: 68px;
         font-weight: 300;
         margin-right: 30px;
+        margin-bottom: 10px;
       }
 
       h6 {
-        font-size: 75px;
+        font-size: 94px;
         font-weight: 900;
         letter-spacing: 5px;
+        text-align: center;
       }
     }
 
@@ -143,7 +146,7 @@ export const BigCardStyles = styled.div`
         }
 
         h6 {
-          font-size: 66px;
+          font-size: 72px;
           letter-spacing: 4px;
         }
       }
@@ -185,7 +188,7 @@ export const BigCardStyles = styled.div`
         }
 
         h6 {
-          font-size: 56px;
+          font-size: 66px;
           letter-spacing: 3px;
         }
       }
@@ -221,6 +224,7 @@ export const BigCardStyles = styled.div`
     justify-content: center;
     padding: 30px;
     .left-card {
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
