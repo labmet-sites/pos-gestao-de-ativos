@@ -63,7 +63,7 @@ export default function Home() {
         desenvolvimento da economia do país, necessitam de profissionais especializados para 
         atuar de forma ética na sociedade. `}
         <br />
-        {`O projeto`} <strong>{`Sistema Inteligente de Gestão Ativos `}</strong>
+        {`O projeto`} <strong>{`Sistema Inteligente de Otimização da Gestão de Ativos `}</strong>
         {`(SIOGA) em desenvolvimento pelo IATI (Instituto Avançado de Tecnologia e Inovação) para a `}  <strong>{`Eletrobras Furnas `}</strong>
         {`no âmbito dos projetos P&D&I da ANEEL (Agência Nacional de Energia Elétrica) identificou a necessidade de formação de pessoas 
         com conhecimentos em Gestão de Ativos com visão de Inteligência Artificial.`}
