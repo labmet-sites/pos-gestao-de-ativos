@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className="small-card-info">
             <h3 className="small-info-left">
-              Telefone: <strong>{`(83) 98735-5103`}</strong>
+              Telefone: <strong>{`(83) 99873-5103`}</strong>
             </h3>
           </div>
           <div className="small-card-info">
