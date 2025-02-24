@@ -228,7 +228,7 @@ export const HomeStyles = styled.section`
     font-weight: 400;
     line-height: 40px;
 
-    strong{
+    strong {
       font-weight: 700;
     }
 

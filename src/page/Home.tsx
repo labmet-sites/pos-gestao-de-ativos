@@ -6,6 +6,13 @@ import lattesLogo from '../assets/lattes-logo.svg';
 import ufcgLogo from '../assets/ufcg-logo.png';
 
 export default function Home() {
+  const today = new Date();
+
+  const startDate = new Date('2025-02-27T00:00:00');
+  const endDate = new Date('2025-03-09T23:59:59');
+
+  const isAvailable = today >= startDate && today <= endDate;
+
   return (
     <HomeStyles>
       <Header />
@@ -32,24 +39,17 @@ export default function Home() {
           </div>
         </div>
         <div className="small-card">
-          <h4 className="small-card-title">Coordenador do Curso</h4>
-          <h3 className="small-card-name">{`Prof. Dr. Jader Morais Borges`}</h3>
-          <div className="small-card-info">
-            <h3 className="small-info-left">
-              Unidade: <strong>{`UAEM/CCT/UFCG`}</strong>
-            </h3>
-          </div>
+          <h4 className="small-card-title">Secretaria do Curso</h4>
           <div className="small-card-info">
             <h3 className="small-info-left">
               Telefone: <strong>{`(83) 99873-5103`}</strong>
             </h3>
           </div>
           <div className="small-card-info">
-            <h3 className="small-info-left">
-              Emails:
-            </h3>
+            <h3 className="small-info-left">Emails:</h3>
             <h3 className="small-info-right">
-              {`jader.morais@professor.ufcg.edu.br`}<br />
+              {`jader.morais@professor.ufcg.edu.br`}
+              <br />
               {`gestaodeativos@ufcg.edu.br`}
             </h3>
           </div>
@@ -57,33 +57,16 @@ export default function Home() {
       </div>
       <Title text={`Concepção do Curso`} />
       <div className="about-text">
-        {`A formação de profissionais Especialistas em Gestão de Ativos do Setor Elétrico, 
-        amplia a possibilidade de, diante de desafios em um mercado em constante evolução, 
-        que exige muita eficiência em sua gestão e por tratar de um recurso importante para o 
-        desenvolvimento da economia do país, necessitam de profissionais especializados para 
-        atuar de forma ética na sociedade. `}
-        <br />
-        {`O projeto`} <strong>{`Sistema Inteligente de Otimização da Gestão de Ativos `}</strong>
-        {`(SIOGA) em desenvolvimento pelo IATI (Instituto Avançado de Tecnologia e Inovação) para a `}  <strong>{`Eletrobras Furnas `}</strong>
-        {`no âmbito dos projetos P&D&I da ANEEL (Agência Nacional de Energia Elétrica) identificou a necessidade de formação de pessoas 
-        com conhecimentos em Gestão de Ativos com visão de Inteligência Artificial.`}
-        <br />
-        {`Para atender essas necessidades, a `} <strong>{`Unidade Acadêmica de Engenharia Mecânica `}</strong>
-        {`(UAEM) da UFCG tem se esforçado para desenvolver ações que fomentem a formação de pessoas de acordo com as 
-        demandas acima descritas, o que culminou na realização do Curso de Especialização em Gestão de Ativos para o Setor Elétrico.`}
+        {`A gestão de ativos tem como foco principal, buscar extrair o máximo valor de ativos da empresa, a partir de ações estratégicas que 
+        levem em consideração, o mapeamento, o planejamento, as oportunidades e riscos, o balanceamento de custos, a performance dos ativos, dentre outros fatores, 
+        observando-se também os avanços tecnológicos atualmente em curso e os aspectos legais e requisitos mínimos, a fim de garantir a conformidade e a segurança dos processos. 
+        Com um conjunto de disciplinas ajustadas às necessidades do mercado e professores com experiência na área, o Curso de Gestão de Ativos promove uma formação técnica 
+        sólida em suas múltiplas dimensões, mediante o desenvolvimento das competências necessárias ao exercício de atividades que necessitem de gestão de ativos tangíveis 
+        (prédios, máquinas, estoques etc). Tudo em sintonia com a dinâmica da sociedade e do mercado de trabalho, nas suas demandas sociais, econômicas, políticas, culturais, 
+        ambientais, científico-tecnológicas e educacionais. `}
       </div>
       <Title text={`Professores`} />
       <ul className="professors">
-        <li className="professor-li">
-          <h1 className="professor-name">{`Jader Morais Borges`}</h1>
-          <a
-            href={`http://lattes.cnpq.br/7480774279022780`}
-            className="lattes-link"
-            target="_blank"
-          >
-            <img className="lattes-img" src={lattesLogo}></img>
-          </a>
-        </li>
         <li className="professor-li">
           <h1 className="professor-name">{`Josenildo Brito de Oliveira`}</h1>
           <a
@@ -165,9 +148,9 @@ export default function Home() {
           </a>
         </li>
         <li className="professor-li">
-          <h1 className="professor-name">{`Gesinaldo Ataíde Cândido`}</h1>
+          <h1 className="professor-name">{`Kliver Lamarthine Alves Confessor`}</h1>
           <a
-            href={`http://lattes.cnpq.br/2771934125977891`}
+            href={`http://lattes.cnpq.br/6761541646953979`}
             className="lattes-link"
             target="_blank"
           >
@@ -175,9 +158,9 @@ export default function Home() {
           </a>
         </li>
         <li className="professor-li">
-          <h1 className="professor-name">{`Kliver Lamarthine Alves Confessor`}</h1>
+          <h1 className="professor-name">{`Rennan Pereira de Gusmão`}</h1>
           <a
-            href={`http://lattes.cnpq.br/6761541646953979`}
+            href={`http://lattes.cnpq.br/1660302572995238`}
             className="lattes-link"
             target="_blank"
           >
@@ -214,17 +197,23 @@ export default function Home() {
           <h1 className=" under-text professor-name ">{`18 parcelas de R$600,00 (Seiscentos Reais)`}</h1>
         </li>
       </ul>
-      <Title text={`Inscrição`} />
+      <Title text={`Inscrições`} />
       <ul className="professors">
         <li className="professor-li">
-          <h1 className="under-text professor-name">{`03 a 20 de Fevereiro`}</h1>
+          <h1 className="under-text professor-name">{`27 de fevereiro até 09 de Março`}</h1>
         </li>
       </ul>
       <a
         target="_blank"
         href="https://docs.google.com/forms/d/e/1FAIpQLSdTt1HTPc3K6Jzhk27oGsjm2ZtuZ0YBZ00Q_VGxzxri5jk8sQ/viewform?usp=sharing"
-        className="form-subscribe"
-      >{`Formulário de Inscrição`}</a>
+        className={`form-subscribe ${isAvailable ? '' : 'disabled'}`}
+        style={{
+          pointerEvents: isAvailable ? 'auto' : 'none',
+          opacity: isAvailable ? 1 : 0.5,
+        }}
+      >
+        {`Formulário de Inscrição`}
+      </a>
       <footer>
         <img src={ufcgLogo} />
         <p>Universidade Federal de Campina grande</p>

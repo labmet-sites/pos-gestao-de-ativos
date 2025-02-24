@@ -25,11 +25,20 @@ export const BigCardStyles = styled.div`
       color: #fff;
     }
 
-    h4 {
+    h4,
+    .coordenador {
       font-size: 28px;
       font-weight: 700;
       color: #fff;
       margin-bottom: 100px;
+    }
+
+    .coordenador {
+      margin-bottom: 6px;
+      strong {
+        font-weight: 300;
+        margin-left: 5px;
+      }
     }
 
     .pos-title {
@@ -56,12 +65,12 @@ export const BigCardStyles = styled.div`
     .more-button {
       color: #09152f;
       background-color: #f4f4f4;
-      border: none;
-      font-size: 20px;
+      border: 1px solid transparent;
+      font-size: 22px;
       font-weight: 900;
       box-sizing: border-box;
-      padding: 20px 30px 20px 30px;
-      border-radius: 16px;
+      padding: 14px 30px 14px 30px;
+      border-radius: 14px;
       transition: 300ms;
       text-decoration: none;
 
@@ -69,7 +78,7 @@ export const BigCardStyles = styled.div`
         cursor: pointer;
         background-color: #09152f;
         color: #f4f4f4;
-        scale: 1.1;
+        border-color: #fff;
       }
     }
   }
@@ -84,7 +93,7 @@ export const BigCardStyles = styled.div`
   position: relative;
   box-sizing: border-box;
   padding: 20px 20px 20px 40px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url(${bgImage});
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,6 +126,10 @@ export const BigCardStyles = styled.div`
       line-height: 30px;
       text-align: justify;
       text-indent: 40px;
+      a {
+        color: #09152f;
+        font-weight: 500;
+      }
     }
   }
 
@@ -136,6 +149,10 @@ export const BigCardStyles = styled.div`
       h4 {
         font-size: 20px;
         margin-bottom: 90px;
+      }
+
+      .coordenador {
+        font-size: 20px;
       }
 
       .pos-title {
@@ -270,6 +287,10 @@ export const BigCardStyles = styled.div`
       .cart-response {
         text-align: center;
         text-indent: 0px;
+        a {
+          color: #ffffff;
+          font-weight: 500;
+        }
       }
     }
   }
@@ -289,6 +310,11 @@ export const BigCardStyles = styled.div`
         font-size: 14px;
         margin-bottom: 40px;
       }
+
+      .coordenador {
+        font-size: 14px;
+      }
+
       .pos-title {
         margin-bottom: 50px;
 
@@ -334,6 +360,11 @@ export const BigCardStyles = styled.div`
         font-size: 12px;
         margin-bottom: 30px;
       }
+
+      .coordenador {
+        font-size: 12px;
+      }
+
       .pos-title {
         margin-bottom: 30px;
 
@@ -378,6 +409,11 @@ export const BigCardStyles = styled.div`
         margin-bottom: 24px;
         text-align: center;
       }
+
+      .coordenador {
+        font-size: 10px;
+      }
+
       .pos-title {
         h6 {
           font-size: 24px;
