@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bgImage from '../../assets/pexels-pok-rie.jpg';
+import bgImage from '../../assets/gestaodeativos.jpg';
 
 export const BigCardStyles = styled.div`
   * {
