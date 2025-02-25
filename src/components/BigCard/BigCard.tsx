@@ -13,7 +13,7 @@ export default function BigCard() {
         <h4>{`Unidade Acadêmica de Engenharia Mecânica (CCT/UFCG)`}</h4>
         <div className="pos-title">
           <h5>{'Curso:'}</h5>
-          <h6>{`Gestão de Ativos`}</h6>
+          <h6>{`Especialização em Gestão de Ativos`}</h6>
         </div>
         <a
           href={
