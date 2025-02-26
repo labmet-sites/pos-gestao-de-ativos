@@ -57,26 +57,20 @@ export default function Home() {
       </div>
       <Title text={`Concepção do Curso`} />
       <div className="about-text">
-        {`A gestão de ativos tem como foco principal, buscar extrair o máximo valor de ativos da empresa, a partir de ações estratégicas que 
+        {`A`} <strong>{`gestão de ativos`}</strong>{' '}
+        {`tem como foco principal, buscar extrair o máximo valor de ativos da empresa, a partir de ações estratégicas que 
         levem em consideração, o mapeamento, o planejamento, as oportunidades e riscos, o balanceamento de custos, a performance dos ativos, dentre outros fatores, 
         observando-se também os avanços tecnológicos atualmente em curso e os aspectos legais e requisitos mínimos, a fim de garantir a conformidade e a segurança dos processos. 
-        Com um conjunto de disciplinas ajustadas às necessidades do mercado e professores com experiência na área, o Curso de Gestão de Ativos promove uma formação técnica 
+         `}
+      </div>
+      <div className="about-text">
+        {`Com um conjunto de disciplinas ajustadas às necessidades do mercado e professores com experiência na área, o Curso de Gestão de Ativos promove uma formação técnica 
         sólida em suas múltiplas dimensões, mediante o desenvolvimento das competências necessárias ao exercício de atividades que necessitem de gestão de ativos tangíveis 
         (prédios, máquinas, estoques etc). Tudo em sintonia com a dinâmica da sociedade e do mercado de trabalho, nas suas demandas sociais, econômicas, políticas, culturais, 
         ambientais, científico-tecnológicas e educacionais. `}
       </div>
       <Title text={`Professores`} />
       <ul className="professors">
-        <li className="professor-li">
-          <h1 className="professor-name">{`Josenildo Brito de Oliveira`}</h1>
-          <a
-            href={`http://lattes.cnpq.br/4767705355607282`}
-            className="lattes-link"
-            target="_blank"
-          >
-            <img className="lattes-img" src={lattesLogo}></img>
-          </a>
-        </li>
         <li className="professor-li">
           <h1 className="professor-name">{`Herbert Ricardo Garcia Viana`}</h1>
           <a
@@ -88,9 +82,19 @@ export default function Home() {
           </a>
         </li>
         <li className="professor-li">
-          <h1 className="professor-name">{`Roberto José Ribeiro Gomes da Silva`}</h1>
+          <h1 className="professor-name">{`Juscelino de Farias Maribondo`}</h1>
           <a
-            href={`http://lattes.cnpq.br/5161408779864017`}
+            href={`http://lattes.cnpq.br/5177641988447089`}
+            className="lattes-link"
+            target="_blank"
+          >
+            <img className="lattes-img" src={lattesLogo}></img>
+          </a>
+        </li>
+        <li className="professor-li">
+          <h1 className="professor-name">{`Josenildo Brito de Oliveira`}</h1>
+          <a
+            href={`http://lattes.cnpq.br/4767705355607282`}
             className="lattes-link"
             target="_blank"
           >
@@ -138,16 +142,6 @@ export default function Home() {
           </a>
         </li>
         <li className="professor-li">
-          <h1 className="professor-name">{`Gabriel de Souza Pereira Gomes`}</h1>
-          <a
-            href={`http://lattes.cnpq.br/8939339011412533`}
-            className="lattes-link"
-            target="_blank"
-          >
-            <img className="lattes-img" src={lattesLogo}></img>
-          </a>
-        </li>
-        <li className="professor-li">
           <h1 className="professor-name">{`Kliver Lamarthine Alves Confessor`}</h1>
           <a
             href={`http://lattes.cnpq.br/6761541646953979`}
@@ -171,10 +165,10 @@ export default function Home() {
       <Title text={`Estrutura Curricular`} />
       <div className="div-1 disciplines">
         <h1 className="level-title">{`1. Núcleo Básico`}</h1>
-        <h2 className="discipline">{`1.1 Metodologia da Pesquisa Científica (10h) `}</h2>
+        <h2 className="discipline">{`1.1 Metodologia da Pesquisa Científica (15h) `}</h2>
         <h2 className="discipline">{`1.2 Estatística Básica (30h)`}</h2>
         <h2 className="discipline">{`1.3 Fundamentos da Gestão de Ativos (30h)`}</h2>
-        <h2 className="discipline">{`1.4 Normas e Padrões (20h)`}</h2>
+        <h2 className="discipline">{`1.4 Normas e Padrões (15h)`}</h2>
         <h2 className="discipline">{`1.5 Introdução à Otimização: Programação Linear (30h)`}</h2>
         <h2 className="discipline">{`1.6 Introdução a Sistemas Inteligentes (30h)`}</h2>
       </div>
