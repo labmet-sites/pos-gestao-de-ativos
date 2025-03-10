@@ -9,7 +9,7 @@ export default function Home() {
   const today = new Date();
 
   const startDate = new Date('2025-02-27T00:00:00');
-  const endDate = new Date('2025-03-09T23:59:59');
+  const endDate = new Date('2025-03-17T23:59:59');
 
   const isAvailable = today >= startDate && today <= endDate;
 
