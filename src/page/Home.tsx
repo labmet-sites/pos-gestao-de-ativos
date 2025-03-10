@@ -194,7 +194,7 @@ export default function Home() {
       <Title text={`Inscrições`} />
       <ul className="professors">
         <li className="professor-li">
-          <h1 className="under-text professor-name">{`27 de fevereiro até 09 de Março`}</h1>
+          <h1 className="under-text professor-name">{`27 de fevereiro até 17 de Março`}</h1>
         </li>
       </ul>
       <a
