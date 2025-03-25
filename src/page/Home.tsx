@@ -4,14 +4,15 @@ import { HomeStyles } from './HomeStyles';
 import Title from '../components/Title/Title';
 import lattesLogo from '../assets/lattes-logo.svg';
 import ufcgLogo from '../assets/ufcg-logo.png';
+import pdf_resultado from '../assets/Resultado_inscricoes_assinado_assinado_assinado.pdf';
 
 export default function Home() {
-  const today = new Date();
+  // const today = new Date();
 
-  const startDate = new Date('2025-02-27T00:00:00');
-  const endDate = new Date('2025-03-17T23:59:59');
+  // const startDate = new Date('2025-02-27T00:00:00');
+  // const endDate = new Date('2025-03-17T23:59:59');
 
-  const isAvailable = today >= startDate && today <= endDate;
+  // const isAvailable = today >= startDate && today <= endDate;
 
   return (
     <HomeStyles>
@@ -199,14 +200,16 @@ export default function Home() {
       </ul>
       <a
         target="_blank"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdTt1HTPc3K6Jzhk27oGsjm2ZtuZ0YBZ00Q_VGxzxri5jk8sQ/viewform?usp=sharing"
-        className={`form-subscribe ${isAvailable ? '' : 'disabled'}`}
-        style={{
-          pointerEvents: isAvailable ? 'auto' : 'none',
-          opacity: isAvailable ? 1 : 0.5,
-        }}
+        href={pdf_resultado}
+        className={`form-subscribe`}
+        style={
+          {
+            // pointerEvents: isAvailable ? 'auto' : 'none',
+            // opacity: isAvailable ? 1 : 0.5,
+          }
+        }
       >
-        {`Formulário de Inscrição`}
+        {`Resultado`}
       </a>
       <footer>
         <img src={ufcgLogo} />
